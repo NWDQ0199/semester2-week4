@@ -1,11 +1,12 @@
 
 /*
  * Factorial
- */
+*/
 
- #include <stdio.h>
+#include <stdio.h>
 
- int main( void ) {
+int main(void)
+{
     int f[20];
 
     /*
@@ -13,4 +14,4 @@
     Print your final answer
     */
     return 0;
- }
+}
