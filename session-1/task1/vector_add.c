@@ -10,7 +10,15 @@ int main(void)
     float a[]={1.0,1.0,1.0,1.0,1.0};
     float b[]={2.0,3.0,4.0,5.0,6.0};
     float c[5];
-
+    printf("c: [");
+    for(int i=0;i<5;i++)
+    {
+        float ci=a[i]+b[i];
+        c[i]=ci;
+        if(i==4) printf("%f",ci);
+        else printf("%f,",ci);
+    }
+    printf("]\n");
     /*
     Code to compute the sum
     Store your answer in array c
