@@ -55,9 +55,9 @@ int main(void)
     return 0;
 }
 
-/*int PrintIntMatrix(int[][] *ptr, int rows, int columns)
+/*int PrintIntMatrix(int* arr, int rows, int columns)
 {
-    arr=*ptr;
+    //arr will point to the first element of the input array
     for(int i=0;i<rows;i++)
     {
         printf("[");
