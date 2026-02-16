@@ -8,13 +8,16 @@
 int main(void)
 {
     int fLen=20;
-    int f[fLen];
+    long f[fLen];
     f[0]=1;
-    for(int i=1;i<fLen;i++)
+    for(int i=0;i<fLen;i++)
     {
-        f[i]=i*f[i-1];
-        if(i!=fLen-1) printf("%i, ",f[i]);
-        else printf("%i\n",f[i]);
+        if(i!=0)
+        {
+            f[i]=i*f[i-1];
+        }
+        if(i!=fLen-1) printf("%li, ",f[i]);
+        else printf("%li\n",f[i]);
     }
     /*
     Code to compute the factorial of each array index
