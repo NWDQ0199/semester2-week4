@@ -13,3 +13,15 @@
  6. print the answer appropriately as pointer, character and string
  */ 
 
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    char str[100]="The quick brown fox jumped over the lazy dog";
+    char subStr[4]="ump";
+
+    char* loc=strstr(str,subStr);
+    printf("Pointer: %p\nCharacter: %c\nString:%s\n",loc,*loc,loc);
+    return 0;
+}
