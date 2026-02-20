@@ -11,7 +11,7 @@ int main(void)
     printf("Length of array: %ld\n",sizeof(charArray));   // expected result
 
     printf("As string: %s\n",charString);   // normal behaviour
-    printf("Length of string: %ld\n",sizeof(charString));   // includes silent character \O
+    printf("Length of string: %ld\n",sizeof(charString));   // includes silent character \0
 
     return 0;
 }
