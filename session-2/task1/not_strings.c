@@ -1,7 +1,8 @@
 
 #include <stdio.h>
 
-int main( void ) {
+int main(void)
+{
 
     char charArray[5] = {'h','e','l','l','o'};
     char charString[] = "hello";
